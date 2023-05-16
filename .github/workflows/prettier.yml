@@ -16,6 +16,6 @@ jobs:
             - name: Format
               uses: creyD/prettier_action@v4.3
               with:
-                  prettier_options: index.json --write --tab-width 4 --tab-width 1
+                  prettier_options: index.json --write --tab-width 4 --print-width 1
                   commit_message: "chore: format json"
                   github_token: ${{ secrets.BOT }}
