@@ -18,4 +18,5 @@ jobs:
               with:
                   prettier_options: index.json --write --tab-width 4 --print-width 1
                   commit_message: "chore: format json"
+                  commit_options: --author="free-domains-bot <bot@freesubdomains.org>"
                   github_token: ${{ secrets.BOT }}
