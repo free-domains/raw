@@ -17,6 +17,5 @@ jobs:
               uses: creyD/prettier_action@v4.3
               with:
                   prettier_options: index.json --write --tab-width 4 --tab-width 1
-                  only_changed: true
                   commit_message: "chore: format json"
                   github_token: ${{ secrets.BOT }}
